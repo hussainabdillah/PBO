@@ -1,10 +1,10 @@
 package Modul4;
 public class DefaultModifier {
-    int a = 1;
-    int b = 2;
-    int c;
+    public int a = 1;
+    public int b = 2;
+    public int c;
     
-    void jumlah(){
+    public void jumlah(){
     c = a + b;
         System.out.println(c);
     }

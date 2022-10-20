@@ -1,5 +1,5 @@
 package Modul4_Turunan;
-import modul4.DefaultModifier;
+import Modul4.DefaultModifier;
 
 public class DefaultModifierDemo2 {
     public static void main(String[] args){
