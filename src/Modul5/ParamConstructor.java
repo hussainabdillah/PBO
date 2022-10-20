@@ -1,5 +1,5 @@
 
-package modul5;
+package Modul5;
 
 public class ParamConstructor {
     String nama,nim;

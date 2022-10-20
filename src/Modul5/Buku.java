@@ -1,4 +1,4 @@
-package modul5;
+package Modul5;
 public class Buku {
     String namaPengarang,  judulBuku;
     int tahunTerbit, cetakanKe;

@@ -1,4 +1,4 @@
-package modul5;
+package Modul5;
 public class BukuDemo {
     public static void main(String[] args) {
         Buku buku1  = new Buku("Hussain", "Hidup adalah anugrah",2001,1,9000);

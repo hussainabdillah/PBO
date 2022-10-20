@@ -1,4 +1,4 @@
-package modul5;
+package Modul5;
 
 public class Constructor {
     String nama = "Hussain Abdillah Tugas Kelarno";

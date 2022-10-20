@@ -1,4 +1,4 @@
-package modul5;
+package Modul5;
 
 public class ConstructorAccess {
     public static void main(String[] args) {

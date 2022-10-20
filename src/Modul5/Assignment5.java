@@ -1,4 +1,4 @@
-package modul5;
+package Modul5;
 public class Assignment5 {
     String nama;
     String nim;
