@@ -1,11 +1,13 @@
 package Modul6;
 
-public class Mobil {
-    int angka = 6;
-    int angkake2 = 7;
+public class Mobil extends Kendaraan{
+    int gear = 5;
+    String tipePenggerak = "Roda";
 
-    public void sum(){
-
-
-    }
-    }
+//    public void infoKendaraan(){
+//        super.tipePenggerak = this.tipePenggerak;
+//        super.infoKendaraan();
+//
+//        System.out.println("Nama Kendaraan : " + namaKendaraan);
+//    }
+}
