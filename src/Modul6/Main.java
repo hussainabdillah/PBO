@@ -3,16 +3,22 @@ package Modul6;
 public class Main {
     public static void main(String[] args) {
         Mobil mobil = new Mobil();
-        System.out.println(mobil.tipePenggerak);
-        System.out.println(mobil.gear);
-        System.out.println(mobil.namaBahanBakar);
-        System.out.println(mobil.horsePower);
-        System.out.println();
         Pesawat pesawat = new Pesawat();
-        System.out.println(pesawat.tipePenggerak);
-        System.out.println(pesawat.namaKendaraan);
-        System.out.println(pesawat.namaBahanBakar);
-        System.out.println(pesawat.horsePower);
+        System.out.println("Mobil");
+        System.out.println("Fuel: " + mobil.fuel);
+        System.out.println("Brand: " + mobil.brand);
+        System.out.println("Max Speed: " + mobil.maxSpeed);
+        System.out.println("Transmisi: " + mobil.transmisi);
+        System.out.println();
+        System.out.println("Pesawat");
+        System.out.println("Fuel: " + pesawat.fuel);
+        System.out.println("Brand: " + pesawat.brand);
+        System.out.println("Max Speed: " + pesawat.maxSpeed);
+        System.out.println("Tipe Pesawat: " + pesawat.tipePesawat);
+
+
+
+
 
     }
 }
