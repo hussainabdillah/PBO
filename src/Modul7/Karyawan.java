@@ -4,6 +4,7 @@ public class Karyawan {
     private String nama;
     private float gaji;
     private int usia;
+    private String alamat;
 
     public String getNama () {
         return nama;
