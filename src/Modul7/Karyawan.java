@@ -4,9 +4,8 @@ public class Karyawan {
     private String nama;
     private float gaji;
     private int usia;
-    private String alamat;
 
-    public String getNama () {
+    public String getNama() {
         return nama;
     }
     public void setNama(String nama) {
@@ -15,7 +14,7 @@ public class Karyawan {
     public float getGaji(){
         return gaji;
     }
-    public void setGaji (float gaji){
+    public void setGaji(float gaji){
         this.gaji = gaji;
     }
     public int getUsia(){

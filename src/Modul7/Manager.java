@@ -5,13 +5,13 @@ public class Manager extends Karyawan{
     public float getjamKerja(){
         return jamKerja;
     }
-    public void setjamKerja(float jamKerja){
-        this.jamKerja = jamKerja;
-    }
+//    public void setjamKerja(float jamKerja){
+//        this.jamKerja = jamKerja;
+//    }
     public float getGajiManager(){
         return getGaji() * 2;
    }
-   public void setGajiManager(float gajiManager){
+    public void setGajiManager(float gajiManager){
         this.setGaji(gajiManager);
    }
 
