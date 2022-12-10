@@ -7,6 +7,7 @@ public class Main {
         m1.setGajiManager(2000000);
         m1.setNama("Hussain");
         m1.setUsia(30);
+        m1.setjamKerja(8.5f);
         System.out.println("Nama Manager : " + m1.getNama());
         System.out.println("Usia Manager : " + m1.getUsia());
         System.out.println("Gaji Manager : " + m1.getGajiManager());
@@ -16,6 +17,7 @@ public class Main {
         m2.setGajiManager(2500000);
         m2.setNama("Ilhan");
         m2.setUsia(29);
+        m2.setjamKerja(8.5f);
         System.out.println("Nama Manager : " + m2.getNama());
         System.out.println("Usia Manager : " + m2.getUsia());
         System.out.println("Gaji Manager : " + m2.getGajiManager());
@@ -24,7 +26,7 @@ public class Main {
         System.out.println("--------------------Karyawan--------------------");
         Karyawan k1 = new Karyawan();
         k1.setGaji(1000000);
-        k1.setNama("Andi");
+        k1.setNama("Yanfei");
         k1.setUsia(25);
         System.out.println("Nama Karyawan : " + k1.getNama());
         System.out.println("Usia Karyawan : " + k1.getUsia());
@@ -32,7 +34,7 @@ public class Main {
 
         Karyawan k2 = new Karyawan();
         k2.setGaji(1500000);
-        k2.setNama("Susi");
+        k2.setNama("HuTao");
         k2.setUsia(27);
         System.out.println("Nama Karyawan : " + k2.getNama());
         System.out.println("Usia Karyawan : " + k2.getUsia());
@@ -40,7 +42,7 @@ public class Main {
 
         Karyawan k3 = new Karyawan();
         k3.setGaji(2000000);
-        k3.setNama("Rudi");
+        k3.setNama("Lumine");
         k3.setUsia(28);
         System.out.println("Nama Karyawan : " + k3.getNama());
         System.out.println("Usia Karyawan : " + k3.getUsia());
